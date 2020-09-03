@@ -1,0 +1,13 @@
+Operations tested on SN8F2288 chips
+
+0x00 - Just ping/pong?
+0x40 - Erase page (128 Words / 256 Bytes)
+0x45 - ??? (wait something?)
+0x4A - ChipID
+0x4C - ??? (wait something?)
+0x5A - ??? (wait something?)
+0x60 - Erase all chip data
+0x80-0x9F Read 1-32 Words
+0xA0-0xBF Seems same with 0x80-0x9F
+0xC0-0xDF Write 1-32 Words
+0xE0-0xFF Seems same with 0xC0-0xDF
