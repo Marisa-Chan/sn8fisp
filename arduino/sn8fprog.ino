@@ -12,6 +12,7 @@ void setup()
 
   delay(100);
   chip.PowerUp();
+  delay(100);
   chip.SnMagicWrite();
   delay(100);
 }
